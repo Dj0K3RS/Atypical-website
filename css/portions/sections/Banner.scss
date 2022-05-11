@@ -1,6 +1,12 @@
 .Banner{
-    padding: 130px 0;
-
+    background-color: #101010;
+    background-image: url(/img/Banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
     .card-gif{
         border: 5px solid white;
         border-radius: 20px;

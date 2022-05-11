@@ -1,6 +1,10 @@
 .menu{
   
-  
+    .navbar-brand{
+        img{
+            max-width: 150px;
+        }
+    }
     a{  color: white;
         &:hover{
             color: #dc3545!important;

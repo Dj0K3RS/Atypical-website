@@ -8,6 +8,9 @@
  * @author      BESSROUR Ahmed (ahmed.bessrour@gmail.com)
  */
 /*==== Reset=================*/
+.menu .navbar-brand img {
+  max-width: 150px;
+}
 .menu a {
   color: white;
 }
@@ -303,7 +306,15 @@ footer .social a:hover {
 }
 
 .Banner {
-  padding: 130px 0;
+  background-color: #101010;
+  background-image: url(/img/Banner-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
 }
 .Banner .card-gif {
   border: 5px solid white;
@@ -330,8 +341,44 @@ footer .social a:hover {
   margin: 0 0 30px 0;
 }
 
+.mint-section .card-mint {
+  margin: 50px 0;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-image: url(../../../img/Minting.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 44px 18px 18px 18px;
+}
+.mint-section .card-mint .title h2 {
+  margin: 0;
+}
+
+.about .bloc-1 {
+  background-color: #101010;
+  background-image: url(/img/About-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about .bloc-2 {
+  background-color: #101010;
+  background-image: url(/img/About-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 595px;
+}
 .about .img-about {
-  margin-left: 10%;
   text-align: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -374,7 +421,6 @@ footer .social a:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

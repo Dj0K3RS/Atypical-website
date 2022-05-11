@@ -1,0 +1,25 @@
+.mint-section{
+  .card-mint{
+      margin: 50px 0;
+      border: 2px solid white;
+      border-radius: 5px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    background-image: url(../../../img/Minting.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 44px 18px 18px 18px;
+    .title{
+        h2{
+            margin: 0;
+        }
+    }
+  }
+
+}

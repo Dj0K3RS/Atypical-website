@@ -1,6 +1,25 @@
 .about{
+   
+    .bloc-1{
+  background-color: #101010;
+    background-image: url(/img/About-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    }
+
+    .bloc-2{
+        background-color: #101010;
+        background-image: url(/img/About-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 595px;
+    }
+  
+ 
+  
     .img-about{
-        margin-left: 10%;
+       
         text-align: inherit;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -43,8 +62,8 @@
         margin-left: 10%;
         text-align: inherit;
         display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+        flex-wrap: wrap;
+ 
     align-items: center;
     align-content: center;
     padding: 0 0 0 10px;
