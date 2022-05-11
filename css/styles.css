@@ -8,9 +8,6 @@
  * @author      BESSROUR Ahmed (ahmed.bessrour@gmail.com)
  */
 /*==== Reset=================*/
-.menu {
-  background: #101010;
-}
 .menu .navbar-brand img {
   max-width: 150px;
 }
@@ -309,7 +306,6 @@ footer .social a:hover {
 }
 
 .Banner {
-  background-color: #101010;
   background-image: url(/img/Banner-2.png);
   background-repeat: no-repeat;
   background-size: cover;
