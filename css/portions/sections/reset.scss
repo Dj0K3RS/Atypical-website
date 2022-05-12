@@ -27,10 +27,14 @@ summary{
     padding: 1rem 0px 10px;
 }
 .btn{
-    border: 2px solid #b92c28;
+    border: 2px solid #ff0000;
     font-size: 20px;
     padding:10px 20px;
     background: none;
+    &:hover{
+        background: #ff0000;
+        border: none;
+    }
   
    
 }
@@ -40,6 +44,9 @@ summary{
 a{
     color: inherit;
     display: inline-block;
+    &:hover{
+        color: #ff0000!important;
+    }
 }
 $red:#dc3545;
 

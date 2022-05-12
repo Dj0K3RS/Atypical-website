@@ -15,7 +15,7 @@
   color: white;
 }
 .menu a:hover {
-  color: #dc3545 !important;
+  color: #ff0000 !important;
 }
 .menu .navbar-collapse {
   -webkit-box-flex: 0;
@@ -49,49 +49,9 @@
   text-align: center;
 }
 
-footer {
-  border-top: 2px solid #dc3545;
-  padding: 20px;
-}
-footer .navbar-brand {
-  font-size: 15px;
-}
-footer .menu {
-  border: none;
-}
-footer .logo {
-  float: left;
-}
-footer .logo span {
-  font-size: 1.72em;
-}
-footer .logo img {
-  max-width: 100px;
-}
-footer .social {
-  text-align: center;
-  margin: 20px 0;
-}
-footer .social a {
-  text-decoration: none;
-  margin: 0 20px;
-}
-footer .social a:hover {
-  color: #9b9b9b;
-}
-
 @media screen and (max-width: 490px) {
   .about h3 {
     margin: 20px 0 0 0;
-  }
-
-  footer .logo {
-    float: inherit;
-    text-align: center;
-  }
-  footer .social {
-    float: inherit;
-    text-align: center;
   }
 }
 #div-cookies {
@@ -107,24 +67,40 @@ footer .social a:hover {
 }
 
 .FAQ {
-  background: black;
   padding: 70px 0;
-  background-image: radial-gradient(circle farthest-side at 100% 0, rgba(255, 27, 27, 0.2), transparent 72%);
 }
 .FAQ h2 {
   margin-top: 0;
 }
 .FAQ .accordion .accordion-item {
-  margin: 10px 0;
+  background: none;
+  margin: 30px;
+}
+.FAQ .accordion .accordion-item .accordion-header {
+  border: 1px solid #ff0000;
+  border-left: 13px solid #ff0000;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: rgba(89, 241, 246, 0.07);
 }
 .FAQ .accordion .accordion-item button {
   font-size: 1.75rem;
+  background: none;
+  color: white;
+}
+.FAQ .accordion .accordion-item button::after {
+  color: #ff0000;
+  display: none;
 }
 .FAQ .accordion .accordion-item .accordion-body {
   background: black;
-}
-.FAQ .accordion .accordion-item .accordion-button:not(.collapsed) {
-  color: black;
+  border: 1px solid #ff0000;
+  border-left: 13px solid #ff0000;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: rgba(89, 241, 246, 0.07);
 }
 .FAQ .accordion-button:focus {
   border-color: #dc3545;
@@ -139,8 +115,6 @@ footer .social a:hover {
 .roadmap {
   overflow: hidden;
   padding: 70px 0;
-  background: #0000006e;
-  background-image: radial-gradient(circle farthest-side at 100% 0, rgba(255, 27, 27, 0.2), transparent 40%);
   /*puces*/
 }
 .roadmap h2 {
@@ -166,7 +140,7 @@ footer .social a:hover {
   left: calc(50% - 2px);
   width: 5px;
   top: -50px;
-  background: #dc3545;
+  background: #ff0000;
   display: none;
 }
 .roadmap .line:before,
@@ -177,7 +151,7 @@ footer .social a:hover {
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
-  background: #dc3545;
+  background: #ff0000;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -219,7 +193,7 @@ footer .social a:hover {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  background: #dc3545;
+  background: #ff0000;
   left: 50%;
   top: 4%;
   -webkit-transform: translateX(-50%);
@@ -376,15 +350,16 @@ footer .social a:hover {
   margin: 0;
 }
 
+.about {
+  padding-bottom: 100px;
+}
 .about .bloc-1 {
   background-color: #101010;
-  background-image: url(/img/About-1.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .about .bloc-2 {
   background-color: #101010;
-  background-image: url(/img/About-2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -504,10 +479,14 @@ summary {
 }
 
 .btn {
-  border: 2px solid #b92c28;
+  border: 2px solid #ff0000;
   font-size: 20px;
   padding: 10px 20px;
   background: none;
+}
+.btn:hover {
+  background: #ff0000;
+  border: none;
 }
 
 .button {
@@ -517,6 +496,9 @@ summary {
 a {
   color: inherit;
   display: inline-block;
+}
+a:hover {
+  color: #ff0000 !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -554,8 +536,88 @@ a {
     margin: 20px 0;
   }
 }
+footer {
+  border: none;
+  background: black;
+  background-image: radial-gradient(circle farthest-side at 100% 0, rgba(255, 27, 27, 0.2), transparent 72%);
+  opacity: 0.9;
+}
+footer .footer-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+footer .footer-head .logo {
+  height: 3rem;
+  width: auto;
+}
+footer .footer-head .logo img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+footer .footer-head .nav {
+  padding: 0 5rem;
+  width: auto;
+}
+footer .footer-head .nav ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  list-style-type: none;
+}
+footer .footer-head .nav ul li {
+  margin: 0 0 1rem;
+}
+footer .footer-head .nav ul li p {
+  display: block;
+  font-weight: 600;
+  color: #ff0000;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 0;
+}
+footer .footer-head .nav ul li a {
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+footer .copyright {
+  text-align: center;
+  font-size: 18px;
+}
+
+.bottom-section img {
+  padding: 0 0 2rem;
+}
+
 .team {
   padding: 70px 0;
+}
+.team .background-team {
+  position: sticky;
+  background-image: url(/img/Banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.2;
+  height: 100vh;
+  top: 0;
 }
 .team h2 {
   margin-top: 0;

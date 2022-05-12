@@ -1,6 +1,16 @@
 .team{
     padding: 70px 0;
-    
+    .background-team{
+        position: sticky;
+        background-image: url(/img/Banner3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        opacity: 0.2;
+        height: 100vh;
+        top: 0;
+    }
+
     h2{
         margin-top: 0;
     }

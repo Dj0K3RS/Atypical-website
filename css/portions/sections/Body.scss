@@ -8,58 +8,14 @@
 .roadmap .roadmap-content{
     text-align: center;
 }
-footer{
- 
-    border-top: 2px solid #dc3545;
-    .navbar-brand{
-        font-size: 15px;
-    }
-    padding: 20px;
-    .menu{
-        border: none;
-    }
-    .logo{
-        float: left;
-        span{
-            font-size: 1.72em;
-        }
-        img{
-            max-width: 100px;
-            
-        }
-    }
-    .social{
-      
-      text-align: center;
-      margin: 20px 0;
-        a{  text-decoration: none;
-            margin: 0 20px;
-            &:hover{
-                color: #9b9b9b;
-            }
-        }
-    }
-   
-}
+
 @media screen and (max-width: 490px) {
     .about{
         h3{
             margin: 20px 0 0 0;
         }
     }
-    footer{
-        .logo{
-            float: inherit;
-            text-align: center;
-        
-        }
-        .social{
-            float: inherit;
-            text-align: center;
-           
-        }
-       
-    }
+   
 }
 
 #div-cookies {
