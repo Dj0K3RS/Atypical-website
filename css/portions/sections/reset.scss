@@ -61,3 +61,21 @@ $red:#dc3545;
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    h1,h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    span{
+        font-size: 18px!important;
+    }
+    button{
+        font-size: 18px!important;
+    }
+    a{
+        font-size: 18px;
+    }
+}

@@ -116,6 +116,11 @@
   background-color: none !important;
 }
 
+@media screen and (max-width: 450px) {
+  .FAQ {
+    padding: 0;
+  }
+}
 .roadmap {
   overflow: hidden;
   padding: 70px 0;
@@ -251,6 +256,32 @@
 @media screen and (max-width: 991px) {
   .roadmap {
     padding: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .roadmap h3 {
+    text-align: center;
+  }
+  .roadmap ul {
+    padding: 0;
+  }
+  .roadmap .content {
+    border: 1px solid #ff0000;
+    border-left: 13px solid #ff0000;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: rgba(89, 241, 246, 0.07);
+    padding: 10px;
+  }
+  .roadmap .bead {
+    border-radius: 5px;
+    border: none;
+    background: none;
+    width: 5rem;
+    padding: 10px 19px;
+    font-size: 25px;
+    font-weight: bold;
   }
 }
 .slider {
@@ -469,6 +500,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 991px) {
+  .about ul {
+    padding: 0;
+  }
+}
 body {
   font-family: Poppin;
   background: black;
@@ -533,6 +569,27 @@ a:hover {
 
   .button {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  h1, h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  span {
+    font-size: 18px !important;
+  }
+
+  button {
+    font-size: 18px !important;
+  }
+
+  a {
+    font-size: 18px;
   }
 }
 .gallery .carousel img {
