@@ -441,6 +441,7 @@
 }
 .about ul {
   list-style-type: none;
+  padding: 0;
 }
 .about li {
   display: -ms-grid;
@@ -457,7 +458,7 @@
   color: #dc3545;
 }
 .about .text {
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -500,7 +501,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 450px) {
   .about ul {
     padding: 0;
   }
