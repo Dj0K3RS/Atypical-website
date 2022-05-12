@@ -576,7 +576,7 @@ a:hover {
 }
 @media screen and (max-width: 450px) {
   h1, h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   p {
@@ -595,13 +595,16 @@ a:hover {
     font-size: 18px;
   }
 }
+.gallery {
+  padding: 100px 0 0 0;
+}
 .gallery .carousel img {
   border-radius: 15px;
 }
 
 .Partner {
   text-align: center;
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
 }
 .Partner img {
   max-width: 250px;
