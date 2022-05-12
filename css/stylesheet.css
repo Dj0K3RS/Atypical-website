@@ -31,3 +31,11 @@
     font-stretch: normal;
 
 }
+@font-face {
+    font-family:'Assian';
+    src: url('../fonts/Asian/aAsianNinja.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+
+}
