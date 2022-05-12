@@ -10,7 +10,7 @@
         .accordion-item {
             background: none;
             margin: 30px;
-
+   
             .accordion-header {
                 border: 1px solid #ff0000;
                 border-left: 13px solid #ff0000;
@@ -18,12 +18,21 @@
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
                 background: rgba(89, 241, 246, 0.07);
+                
             }
+            .accordion-collapse{
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+        
 
             button {
                 font-size: 22px;
                 background: none;
                 color: white;
+                
 
                 &::after {
                     color: #ff0000;
@@ -39,6 +48,7 @@
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
                 background: rgba(89, 241, 246, 0.07);
+                
             }
 
         }
