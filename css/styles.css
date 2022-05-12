@@ -250,7 +250,7 @@
 }
 @media screen and (max-width: 991px) {
   .roadmap {
-    margin-top: 70px;
+    padding: 0;
   }
 }
 .slider {
@@ -290,8 +290,6 @@
   background-image: url(/img/Banner-2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
   width: 100%;
   height: 100vh;
   padding: 100px 0;
@@ -328,9 +326,27 @@
   font-size: 18px;
 }
 
+@media screen and (max-width: 991px) {
+  .Banner {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
 @media screen and (max-width: 767px) {
+  .Banner {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+  }
   .Banner img {
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Banner {
+    padding: 100px 0;
   }
 }
 .mint-section .card-mint {
@@ -435,18 +451,13 @@
   .about ul li {
     text-align: left;
   }
-  .about .content {
-    text-align: center;
-  }
   .about .content .title {
     width: 100%;
   }
   .about .content img {
-    max-width: 250px !important;
     margin: auto;
   }
   .about .content .text {
-    text-align: center !important;
     margin: inherit;
   }
   .about .content .text h3 {
@@ -616,6 +627,11 @@ footer .copyright {
   padding: 0 0 2rem;
 }
 
+@media screen and (max-width: 450px) {
+  footer .footer-head .nav {
+    padding: 0 10px;
+  }
+}
 .team {
   padding: 70px 0;
 }

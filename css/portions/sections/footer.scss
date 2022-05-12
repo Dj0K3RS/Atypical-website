@@ -66,3 +66,9 @@ footer{
         padding: 0 0 2rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    footer .footer-head .nav{
+        padding: 0 10px;
+    }
+}
