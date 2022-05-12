@@ -121,6 +121,13 @@
   padding: 70px 0;
   /*puces*/
 }
+.roadmap ul {
+  list-style-type: none;
+}
+.roadmap ul li {
+  margin: 30px 0;
+  font-size: 50px;
+}
 .roadmap h2 {
   margin-top: 0;
 }
@@ -225,10 +232,6 @@
 .roadmap .roadmap ul {
   list-style: none;
   padding-left: 0;
-}
-.roadmap .roadmap ul li {
-  margin: 30px 0;
-  font-size: 22px;
 }
 .roadmap .roadmap ul .Done {
   text-decoration: line-through;
@@ -361,11 +364,15 @@
   background-color: #101010;
   background-repeat: no-repeat;
   background-size: contain;
+  border: 2px solid white;
+  border-bottom: none;
 }
 .about .bloc-2 {
   background-color: #101010;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 2px solid white;
+  border-top: none;
 }
 .about .img-about {
   text-align: inherit;
@@ -619,7 +626,7 @@ footer .copyright {
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 0.2;
+  opacity: 0.1;
   height: 100vh;
   top: 0;
 }
