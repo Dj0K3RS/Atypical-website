@@ -16,7 +16,7 @@ $(document).ready(function () {
     id=$(this).attr("href")
     $('html, body').animate({
         scrollTop: $(id).offset().top
-    }, 2000);
+    }, 100);
 });
 
   
