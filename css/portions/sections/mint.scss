@@ -10,11 +10,16 @@
     flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
-    background-image: url(../../../img/Minting.png);
+    background-image: url(../../../img/Mint.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 44px 18px 18px 18px;
+    a{
+      img{
+        max-width: 25px;
+      }
+    }
     .title{
         h2{
             margin: 0;

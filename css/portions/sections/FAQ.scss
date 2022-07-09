@@ -12,8 +12,8 @@
             margin: 30px;
    
             .accordion-header {
-                border: 1px solid #ff0000;
-                border-left: 13px solid #ff0000;
+                border: 1px solid #0b4570;
+                border-left: 13px solid #0b4570;
                 position: relative;
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
@@ -35,15 +35,15 @@
                 
 
                 &::after {
-                    color: #ff0000;
+                    color: #0b4570;
                     display: none;
                 }
             }
 
             .accordion-body {
                 background: black;
-                border: 1px solid #ff0000;
-                border-left: 13px solid #ff0000;
+                border: 1px solid #0b4570;
+                border-left: 13px solid #0b4570;
                 position: relative;
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
@@ -55,9 +55,9 @@
     }
 
     .accordion-button:focus {
-        border-color: #dc3545;
-        box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 25%);
-        border: #dc3545;
+        border-color: #0b4570;
+
+        border: #0b4570;
     }
 
     .accordion-button:not(.collapsed) {

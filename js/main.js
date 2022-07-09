@@ -111,7 +111,15 @@ $(document).ready(function () {
   /*MENU HOVER*/
 
   // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {scrollFunction()};
 
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("myHeader").style.background = "#0b111b";
+    } else {
+      document.getElementById("myHeader").style.background = "transparent";
+    }
+  }
   // When the user scrolls the page, execute myFunction
 
 

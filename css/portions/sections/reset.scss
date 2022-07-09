@@ -1,14 +1,18 @@
 body{
     font-family: Poppin;
-    background: black;
+    background: #0b111b;
     z-index: 1;
     color: white;
+
 }
 #main-content{
     position: relative;
     z-index: 2;
-    background-image: radial-gradient(circle farthest-side at 100% 0, rgb(255 27 27 / 20%), transparent 72%);
-
+    background-image: radial-gradient(circle farthest-side at 100% 0, rgb(40 38 38 / 20%), transparent 72%);
+    background-image: url(/img/new-banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 h1,h2{
     text-align: center;
@@ -16,7 +20,7 @@ h1,h2{
     margin: 100px 0 50px 0px;
     font-weight: bold;
     color:white;
-    font-family:Assian;
+    font-family:Evil;
 }
 
 p{
@@ -29,12 +33,12 @@ summary{
     padding: 1rem 0px 10px;
 }
 .btn{
-    border: 2px solid #ff0000;
+    border: 2px solid #0b4570;
     font-size: 20px;
     padding:10px 20px;
     background: none;
     &:hover{
-        background: #ff0000;
+        background: #0b4570;
         border: none;
     }
   
@@ -47,10 +51,10 @@ a{
     color: inherit;
     display: inline-block;
     &:hover{
-        color: #ff0000!important;
+        color: #0b4570!important;
     }
 }
-$red:#dc3545;
+$red:#0b4570;
 
 @media screen and (max-width: 991px) {
     h1,h2{
@@ -65,6 +69,15 @@ $red:#dc3545;
 }
 
 @media screen and (max-width: 450px) {
+    #main-content{
+        position: relative;
+        z-index: 2;
+        background-image: radial-gradient(circle farthest-side at 100% 0, rgb(40 38 38 / 20%), transparent 72%);
+        background-image: url(/img/new-banner-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
     h1,h2{
         font-size: 40px;
        

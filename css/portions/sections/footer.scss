@@ -1,8 +1,8 @@
 footer{
     border: none;
-    background: black;
+    background: #0b111b;
    
-    background-image: radial-gradient(circle farthest-side at 100% 0, rgba(255, 27, 27, 0.2), transparent 72%);
+    background-image: radial-gradient(circle farthest-side at 100% 0, rgb(40 38 38 / 20%), transparent 72%);
     opacity: 0.9;
     .footer-head{
         display: flex;
@@ -38,7 +38,7 @@ footer{
             display: block;
             font-weight: 600;
             
-            color: #ff0000;
+            color: #0b4570;
             margin-bottom: 2rem;
             text-transform: uppercase;
             overflow: hidden;

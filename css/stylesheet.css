@@ -39,3 +39,11 @@
     font-stretch: normal;
 
 }
+@font-face {
+    font-family:'Evil';
+    src: url('../fonts/Evil/Evil-Empire.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+
+}
